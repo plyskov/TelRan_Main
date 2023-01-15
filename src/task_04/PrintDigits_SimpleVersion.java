@@ -1,4 +1,4 @@
-package Task_04;
+package task_04;
 
 public class PrintDigits_SimpleVersion {
 

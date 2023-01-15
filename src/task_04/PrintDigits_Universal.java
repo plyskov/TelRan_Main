@@ -1,4 +1,4 @@
-package Task_04;
+package task_04;
 
 import java.util.ArrayList;
 import java.util.Scanner;
