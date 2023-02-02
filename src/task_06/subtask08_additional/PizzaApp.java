@@ -7,9 +7,13 @@ public class PizzaApp {
         UserInput input = new UserInput();
         PizzaCalculator pizzaCalculator = new PizzaCalculator();
 
-        int radiusIncrease = input.askIntNumber("Please type how many cm do you wish to add to your " + pizzaCalculator.standartRadius +"-cm taaaasty pizza:");
+        int radiusIncrease = input.askIntNumber("Please type how many cm do you wish to add to your "
+                + pizzaCalculator.standartDiameter
+                + "-cm-diameter pizza:");
 
-        System.out.println("You will eat " + pizzaCalculator.caloriesAdded(radiusIncrease) + " extra calories!");
+        System.out.println("You will eat "
+                + pizzaCalculator.caloriesAdded(radiusIncrease)
+                + " extra calories!");
 
     }
 
